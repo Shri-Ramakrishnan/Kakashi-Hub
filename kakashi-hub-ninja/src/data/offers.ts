@@ -1,3 +1,12 @@
+import blueguardian from "@/assets/logos/blueguardian.png";
+import the5ers from "@/assets/logos/the5ers.png";
+import fundingpips from "@/assets/logos/fundingpips.png";
+import brightfunded from "@/assets/logos/brightfunded.png";
+import e8markets from "@/assets/logos/e8markets.png";
+import alphacapital from "@/assets/logos/alphacapital.png";
+import aquafunded from "@/assets/logos/aquafunded.png";
+import cryptofundtrader from "@/assets/logos/cryptofundtrader.png";
+
 export type Category = "Futures" | "Forex" | "Crypto" | "Multi";
 
 export interface Offer {
@@ -17,7 +26,7 @@ export const offers: Offer[] = [
   {
     id: "blue-guardian",
     name: "Blue Guardian",
-    logo: "/src/assets/logos/blueguardian.png",
+    logo: blueguardian,
     category: "Forex",
     discount: "25% OFF",
     tagline: "Trusted forex prop firm with fair rules",
@@ -29,7 +38,7 @@ export const offers: Offer[] = [
   {
     id: "the5ers",
     name: "The5ers",
-    logo: "/src/assets/logos/the5ers.png",
+    logo: the5ers,
     category: "Forex",
     discount: "BOGO",
     tagline: "Buy one get one — instant funding programs",
@@ -41,7 +50,7 @@ export const offers: Offer[] = [
   {
     id: "fundingpips",
     name: "FundingPips",
-    logo: "/src/assets/logos/fundingpips.png",
+    logo: fundingpips,
     category: "Forex",
     discount: "EXCLUSIVE",
     tagline: "One of the fastest growing prop firms",
@@ -53,7 +62,7 @@ export const offers: Offer[] = [
   {
     id: "brightfunded",
     name: "BrightFunded",
-    logo: "/src/assets/logos/brightfunded.png",
+    logo: brightfunded,
     category: "Forex",
     discount: "PARTNER",
     tagline: "Trade-to-earn rewards on every trade",
@@ -65,7 +74,7 @@ export const offers: Offer[] = [
   {
     id: "e8-markets",
     name: "E8 Markets",
-    logo: "/src/assets/logos/e8markets.png",
+    logo: e8markets,
     category: "Multi",
     discount: "KAKASHI",
     tagline: "Premium evaluation with flexible challenges",
@@ -77,7 +86,7 @@ export const offers: Offer[] = [
   {
     id: "alpha-capital",
     name: "Alpha Capital Group",
-    logo: "/src/assets/logos/alphacapital.png",
+    logo: alphacapital,
     category: "Forex",
     discount: "PVAAY",
     tagline: "London-based prop firm with elite traders",
@@ -89,7 +98,7 @@ export const offers: Offer[] = [
   {
     id: "aquafunded",
     name: "AquaFunded",
-    logo: "/src/assets/logos/aquafunded.png",
+    logo: aquafunded,
     category: "Forex",
     discount: "AFFILIATE",
     tagline: "Smooth challenges, fast onboarding",
@@ -101,7 +110,7 @@ export const offers: Offer[] = [
   {
     id: "crypto-fund-trader",
     name: "Crypto Fund Trader",
-    logo: "/src/assets/logos/cryptofundtrader.png",
+    logo: cryptofundtrader,
     category: "Crypto",
     discount: "CRYPTO",
     tagline: "Dedicated crypto prop firm — 24/7 markets",
