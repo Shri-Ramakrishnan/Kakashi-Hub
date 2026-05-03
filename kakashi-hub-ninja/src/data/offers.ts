@@ -6,7 +6,8 @@ import e8markets from "@/assets/logos/e8markets.png";
 import alphacapital from "@/assets/logos/alphacapital.png";
 import aquafunded from "@/assets/logos/aquafunded.png";
 import cryptofundtrader from "@/assets/logos/cryptofundtrader.png";
-
+import alphafutures from "@/assets/logos/alphafutures.png";
+import e8x from "@/assets/logos/e8x.png";
 export type Category = "Futures" | "Forex" | "Crypto" | "Multi";
 
 export interface Offer {
@@ -119,4 +120,36 @@ export const offers: Offer[] = [
     link: "https://cryptofundtrader.com?_by=kakashi",
     accent: "amber",
   },
+  {
+  id: "alpha-futures",
+  name: "Alpha Futures",
+  logo: alphafutures,
+  category: "Futures",
+  discount: "FUNDED",
+  tagline: "Futures prop firm with structured scaling",
+  features: [
+    "Evaluation + instant funding",
+    "Structured risk model",
+    "Fast payouts"
+  ],
+  code: null,
+  link: "https://app.alpha-futures.com/signup/Shri_Ramakrishnan024610/",
+  accent: "blue",
+},
+{
+  id: "e8x-futures",
+  name: "E8X Futures",
+  logo: e8x,
+  category: "Futures",
+  discount: "KAKASHI",
+  tagline: "Futures trading powered by E8 Markets",
+  features: [
+    "Advanced futures programs",
+    "High scaling potential",
+    "Backed by E8 ecosystem"
+  ],
+  code: "KAKASHI",
+  link: "https://e8markets.com/d/KAKASHI",
+  accent: "violet",
+},
 ];
