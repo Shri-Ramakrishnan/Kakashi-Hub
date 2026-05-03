@@ -8,6 +8,7 @@ import aquafunded from "@/assets/logos/aquafunded.png";
 import cryptofundtrader from "@/assets/logos/cryptofundtrader.png";
 import alphafutures from "@/assets/logos/alphafutures.png";
 import e8x from "@/assets/logos/e8x.png";
+import mentfunding from "@/assets/logos/mentfunding.png";
 export type Category = "Futures" | "Forex" | "Crypto" | "Multi";
 
 export interface Offer {
@@ -150,6 +151,22 @@ export const offers: Offer[] = [
   ],
   code: "KAKASHI",
   link: "https://e8markets.com/d/KAKASHI",
+  accent: "violet",
+},
+{
+  id: "ment-funding",
+  name: "Ment Funding",
+  logo: mentfunding,
+  category: "Forex",
+  discount: "FUNDED",
+  tagline: "One-step evaluation with no time limits",
+  features: [
+    "1-step challenge model",
+    "Up to 90% profit split",
+    "No time restrictions"
+  ],
+  code: null,
+  link: "https://dashboard.mentfunding.com/challenges?affiliateId=Kakashi",
   accent: "violet",
 },
 ];
