@@ -1,6 +1,6 @@
 import { motion } from "framer-motion";
 import { useMemo, useState } from "react";
-import { Search, Twitter, Instagram, ArrowDown, Shield } from "lucide-react";
+import { Search,Twitter, ArrowDown, Shield } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { OfferCard } from "@/components/OfferCard";
 import SharinganEye from "@/components/SharinganEye";
@@ -51,10 +51,8 @@ const Index = () => {
                className="h-10 w-10 rounded-full glass flex items-center justify-center hover:text-primary hover:border-primary/40 transition">
               <Twitter className="h-4 w-4" />
             </a>
-            <a href="https://www.instagram.com/kakashi.0.5/" target="_blank" rel="noopener noreferrer" aria-label="Follow on Instagram"
-               className="h-10 w-10 rounded-full glass flex items-center justify-center hover:text-primary hover:border-primary/40 transition">
-              <Instagram className="h-4 w-4" />
-            </a>
+            
+            
           </div>
         </nav>
 
@@ -195,10 +193,7 @@ const Index = () => {
                className="h-9 w-9 rounded-full glass flex items-center justify-center hover:text-primary transition">
               <Twitter className="h-4 w-4" />
             </a>
-            <a href="https://www.instagram.com/kakashi.0.5/" target="_blank" rel="noopener noreferrer" aria-label="Instagram"
-               className="h-9 w-9 rounded-full glass flex items-center justify-center hover:text-primary transition">
-              <Instagram className="h-4 w-4" />
-            </a>
+          
           </div>
         </div>
       </footer>
