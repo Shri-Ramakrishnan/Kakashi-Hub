@@ -9,6 +9,7 @@ import cryptofundtrader from "@/assets/logos/cryptofundtrader.png";
 import alphafutures from "@/assets/logos/alphafutures.png";
 import e8x from "@/assets/logos/e8x.png";
 import mentfunding from "@/assets/logos/mentfunding.png";
+import phidias from "@/assets/logos/phidias.png";
 export type Category = "Futures" | "Forex" | "Crypto" | "Multi";
 
 export interface Offer {
@@ -121,6 +122,22 @@ export const offers: Offer[] = [
     link: "https://cryptofundtrader.com?_by=kakashi",
     accent: "amber",
   },
+  {
+  id: "phidias",
+  name: "Phidias Prop Firm",
+  logo: phidias,
+  category: "Futures",
+  discount: "80% OFF",
+  tagline: "Advanced futures prop firm with high scaling potential",
+  features: [
+    "Up to 90% profit split",
+    "Flexible evaluation models",
+    "Scaling & funding options"
+  ],
+  code: "KAKASHI",
+  link: "https://member.phidiaspropfirm.com/aff/go/kakashi",
+  accent: "cyan",
+},
   {
   id: "alpha-futures",
   name: "Alpha Futures",
