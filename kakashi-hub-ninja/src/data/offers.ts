@@ -8,8 +8,7 @@ import aquafunded from "@/assets/logos/aquafunded.png";
 import cryptofundtrader from "@/assets/logos/cryptofundtrader.png";
 import alphafutures from "@/assets/logos/alphafutures.png";
 import e8x from "@/assets/logos/e8x.png";
-import mentfunding from "@/assets/logos/mentfunding.png";
-import phidias from "@/assets/logos/phidias.png";
+import yrmprop from "@/assets/logos/yrmprop.png";
 export type Category = "Futures" | "Forex" | "Crypto" | "Multi";
 
 export interface Offer {
@@ -122,22 +121,7 @@ export const offers: Offer[] = [
     link: "https://cryptofundtrader.com?_by=kakashi",
     accent: "amber",
   },
-  {
-  id: "phidias",
-  name: "Phidias Prop Firm",
-  logo: phidias,
-  category: "Futures",
-  discount: "80% OFF",
-  tagline: "Advanced futures prop firm with high scaling potential",
-  features: [
-    "Up to 90% profit split",
-    "Flexible evaluation models",
-    "Scaling & funding options"
-  ],
-  code: "KAKASHI",
-  link: "https://member.phidiaspropfirm.com/aff/go/kakashi",
-  accent: "cyan",
-},
+
   {
   id: "alpha-futures",
   name: "Alpha Futures",
@@ -155,6 +139,22 @@ export const offers: Offer[] = [
   accent: "blue",
 },
 {
+  id: "yrm-prop",
+  name: "YRM Prop",
+  logo: yrmprop,
+  category: "Futures",
+  discount: "40% OFF",
+  tagline: "Modern futures prop firm with trader-friendly funding models",
+  features: [
+    "Fast evaluation programs",
+    "Competitive profit split",
+    "Scaling opportunities"
+  ],
+  code: null,
+  link: "https://yrmprop.com/ref/kakashi-05",
+  accent: "amber",
+},
+{
   id: "e8x-futures",
   name: "E8X Futures",
   logo: e8x,
@@ -170,20 +170,5 @@ export const offers: Offer[] = [
   link: "https://e8markets.com/d/KAKASHI",
   accent: "violet",
 },
-{
-  id: "ment-funding",
-  name: "Ment Funding",
-  logo: mentfunding,
-  category: "Forex",
-  discount: "7% OFF",
-  tagline: "One-step evaluation with no time limits",
-  features: [
-    "1-step challenge model",
-    "Up to 90% profit split",
-    "No time restrictions"
-  ],
-  code: null,
-  link: "https://dashboard.mentfunding.com/challenges?affiliateId=Kakashi",
-  accent: "violet",
-},
+
 ];
